@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Calendar 1.0//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:31db438b-5c01-4bac-aac1-244f9c0c413a@chatgpt
+DTSTAMP:20250923T193627Z
+SUMMARY:Refill reminder — Rinvoq
+DESCRIPTION:Refill Rinvoq prescription. Confirm any required lab monitoring and contact your pharmacy to arrange pickup or delivery.
+CATEGORIES:Medication
+DTSTART;TZID=America/New_York:20250926T100000
+DTEND;TZID=America/New_York:20250926T110000
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Refill Rinvoq prescription tomorrow
+END:VALARM
+END:VEVENT
+END:VCALENDAR
