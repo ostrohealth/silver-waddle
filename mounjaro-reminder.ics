@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Mounjaro Reminder//EN
+BEGIN:VEVENT
+UID:mounjaro-reminder-20251115T090000-1@local
+DTSTAMP:20251113T000000Z
+SUMMARY:Inject Mounjaro
+DESCRIPTION:Weekly reminder to inject Mounjaro.
+DTSTART;TZID=America/Los_Angeles:20251115T090000
+DTEND;TZID=America/Los_Angeles:20251115T091500
+RRULE:FREQ=WEEKLY;BYDAY=SA
+URL:https://fake-pharma-site.netlify.app/dto/embed?uuid=1701a587-c647-4953-bb7c-207262e010ee&env=staging
+END:VEVENT
+END:VCALENDAR
